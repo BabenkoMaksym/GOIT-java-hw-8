@@ -1,8 +1,8 @@
 public class GetShapeName {
     Shape shape;
 
-    public  GetShapeName(Shape shape) {
+    public GetShapeName(Shape shape) {
         this.shape = shape;
-        shape.printName();
+        System.out.println(shape.getName());
     }
 }

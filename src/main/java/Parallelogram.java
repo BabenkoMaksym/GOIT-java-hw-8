@@ -3,7 +3,7 @@ public class Parallelogram extends Shape {
 
 
     @Override
-    public void printName() {
-        System.out.println("Parallelogram (Паралелограмм)");
+    public String getName() {
+        return  "Parallelogram (Паралелограмм)";
     }
 }

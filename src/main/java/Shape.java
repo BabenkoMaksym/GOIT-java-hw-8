@@ -1,6 +1,4 @@
 public abstract class Shape {
-    public  void printName() {
-    }
-
-
+    public abstract String getName();
 }
+

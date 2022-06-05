@@ -1,7 +1,7 @@
 public class Circle extends Shape {
-//    Круг
+    //    Круг
     @Override
-    public void printName() {
-        System.out.println("Circle (Круг)");
+    public String getName() {
+        return "Circle (Круг)";
     }
 }
