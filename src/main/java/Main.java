@@ -3,8 +3,9 @@ public class Main {
         Circle circle = new Circle();
         Square square = new Square();
 
-        new GetShapeName(square);
-        new GetShapeName(circle);
+        GetShapeName printer = new GetShapeName();
+        printer.printName(circle);
+        printer.printName(square);
 
     }
 }
